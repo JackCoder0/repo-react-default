@@ -44,7 +44,8 @@ const Techs = [
 
 export function App() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-3">
+    <div className="flex h-screen flex-col items-center justify-center">
+      <h6 className="text-xl font-bold">Tecnologias nesse Repositório</h6>
       {Techs.map((tech) => (
         <Tech key={tech.name} file={tech.file} name={tech.name} />
       ))}
