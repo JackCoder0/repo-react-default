@@ -1,3 +1,4 @@
+import testingLogo from './assets/testing.svg'
 import { Tech } from './Tecnologies'
 
 const ICON_BASE_URL =
@@ -26,7 +27,7 @@ const Techs = [
   },
   {
     name: 'Testing Library',
-    file: `${ICON_BASE_URL}testing-library/testing-library-original.svg`,
+    file: testingLogo,
   },
   {
     name: 'Storybook',
