@@ -1,3 +1,5 @@
+import './global.css'
+
 import testingLogo from './assets/testing.svg'
 import { Tech } from './Tecnologies'
 
