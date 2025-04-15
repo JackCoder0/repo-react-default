@@ -1,4 +1,4 @@
-import './global.css'
+import './index.css'
 
 import testingLogo from './assets/testing.svg'
 import { Tech } from './Tecnologies'
